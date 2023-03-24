@@ -12,11 +12,12 @@ import CounterUseEffect from './chapter_07/CounterUseEffect';
 import UserStatusWithCounter from './chapter_07/UserStatusWithCounter';
 import TextlnputWithFocusButton from './chapter_07/TextlnputWithFocusButton';
 import ConfirmButton from './chapter_08/ConfirmButton';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton/>
+    <LandingPage/>
   </React.StrictMode>
 );
 
