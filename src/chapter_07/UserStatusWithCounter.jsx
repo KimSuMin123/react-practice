@@ -9,9 +9,9 @@ function UserStatusWithCounter(props) {
 
   const [isOnline, setIsOnline] = useState(null);
   useEffect(() => {
-    ServerAPI.subscribeUserStatus(props.user.id, handleStatusChange);
+    // ServerAPI.subscribeUserStatus(props.user.id, handleStatusChange);
     return () => {
-      ServerAPI.unsubscribellserStatus(props.user.id, handleStatusChange);
+      // ServerAPI.unsubscribellserStatus(props.user.id, handleStatusChange);
     };
   });
 

@@ -11,12 +11,12 @@ import CounterUseState from './chapter_07/CounterUseState';
 import CounterUseEffect from './chapter_07/CounterUseEffect';
 import UserStatusWithCounter from './chapter_07/UserStatusWithCounter';
 import TextlnputWithFocusButton from './chapter_07/TextlnputWithFocusButton';
-import Accommodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton/>
   </React.StrictMode>
 );
 
