@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// 디자인 부분
 const Wrapper = styled.div`
     padding : 1rem
     display : flex
@@ -9,6 +10,7 @@ const Wrapper = styled.div`
     background-color : lightgrey;
 `;
 
+// 디자인 부분
 const Block = styled.div`
     padding : ${(props) => props.padding};
     border : 1px soild black;
